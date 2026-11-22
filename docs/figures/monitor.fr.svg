@@ -1,0 +1,110 @@
+<svg xmlns='http://www.w3.org/2000/svg' width='720' height='290' viewBox='0 0 720 290' role='img' aria-label='États du moniteur, chaque jour de l'année réservée'>
+<title>États du moniteur, chaque jour de l'année réservée</title>
+<rect width='720' height='290' fill='#fcfcfb'/>
+<text x='16' y='24' font-family='system-ui, -apple-system, Segoe UI, sans-serif' font-size='15' font-weight='600' fill='#0b0b0b'>États du moniteur, chaque jour de l'année réservée</text>
+<text x='142' y='58' font-family='system-ui, -apple-system, Segoe UI, sans-serif' font-size='11' fill='#0b0b0b' text-anchor='end'>M1:T1_da_lbmp</text>
+<rect x='150.00' y='46' width='94.10' height='16' fill='#0ca30c'><title>M1:T1_da_lbmp 2025-11-01–2026-01-01: confiance</title></rect>
+<rect x='244.10' y='46' width='9.11' height='16' fill='#fab219'><title>M1:T1_da_lbmp 2026-01-02–2026-01-07: vigilance</title></rect>
+<rect x='253.21' y='46' width='27.32' height='16' fill='#0ca30c'><title>M1:T1_da_lbmp 2026-01-08–2026-01-25: confiance</title></rect>
+<rect x='280.53' y='46' width='4.55' height='16' fill='#fab219'><title>M1:T1_da_lbmp 2026-01-26–2026-01-28: vigilance</title></rect>
+<rect x='285.08' y='46' width='1.52' height='16' fill='#d03b3b'><title>M1:T1_da_lbmp 2026-01-29–2026-01-29: cesser de faire confiance</title></rect>
+<rect x='286.60' y='46' width='40.98' height='16' fill='#fab219'><title>M1:T1_da_lbmp 2026-01-30–2026-02-25: vigilance</title></rect>
+<rect x='327.58' y='46' width='376.42' height='16' fill='#0ca30c'><title>M1:T1_da_lbmp 2026-02-26–2026-10-31: confiance</title></rect>
+<text x='142' y='80' font-family='system-ui, -apple-system, Segoe UI, sans-serif' font-size='11' fill='#0b0b0b' text-anchor='end'>M2:T1_da_lbmp</text>
+<rect x='150.00' y='68' width='39.46' height='16' fill='#d03b3b'><title>M2:T1_da_lbmp 2025-11-01–2025-11-26: cesser de faire confiance</title></rect>
+<rect x='189.46' y='68' width='3.04' height='16' fill='#0ca30c'><title>M2:T1_da_lbmp 2025-11-27–2025-11-28: confiance</title></rect>
+<rect x='192.50' y='68' width='7.59' height='16' fill='#fab219'><title>M2:T1_da_lbmp 2025-11-29–2025-12-03: vigilance</title></rect>
+<rect x='200.09' y='68' width='19.73' height='16' fill='#d03b3b'><title>M2:T1_da_lbmp 2025-12-04–2025-12-16: cesser de faire confiance</title></rect>
+<rect x='219.82' y='68' width='30.36' height='16' fill='#fab219'><title>M2:T1_da_lbmp 2025-12-17–2026-01-05: vigilance</title></rect>
+<rect x='250.18' y='68' width='28.84' height='16' fill='#0ca30c'><title>M2:T1_da_lbmp 2026-01-06–2026-01-24: confiance</title></rect>
+<rect x='279.01' y='68' width='4.55' height='16' fill='#fab219'><title>M2:T1_da_lbmp 2026-01-25–2026-01-27: vigilance</title></rect>
+<rect x='283.57' y='68' width='62.23' height='16' fill='#d03b3b'><title>M2:T1_da_lbmp 2026-01-28–2026-03-09: cesser de faire confiance</title></rect>
+<rect x='345.80' y='68' width='1.52' height='16' fill='#fab219'><title>M2:T1_da_lbmp 2026-03-10–2026-03-10: vigilance</title></rect>
+<rect x='347.32' y='68' width='173.03' height='16' fill='#0ca30c'><title>M2:T1_da_lbmp 2026-03-11–2026-07-02: confiance</title></rect>
+<rect x='520.35' y='68' width='1.52' height='16' fill='#fab219'><title>M2:T1_da_lbmp 2026-07-03–2026-07-03: vigilance</title></rect>
+<rect x='521.86' y='68' width='1.52' height='16' fill='#d03b3b'><title>M2:T1_da_lbmp 2026-07-04–2026-07-04: cesser de faire confiance</title></rect>
+<rect x='523.38' y='68' width='1.52' height='16' fill='#0ca30c'><title>M2:T1_da_lbmp 2026-07-05–2026-07-05: confiance</title></rect>
+<rect x='524.90' y='68' width='6.07' height='16' fill='#fab219'><title>M2:T1_da_lbmp 2026-07-06–2026-07-09: vigilance</title></rect>
+<rect x='530.97' y='68' width='9.11' height='16' fill='#0ca30c'><title>M2:T1_da_lbmp 2026-07-10–2026-07-15: confiance</title></rect>
+<rect x='540.08' y='68' width='16.70' height='16' fill='#fab219'><title>M2:T1_da_lbmp 2026-07-16–2026-07-26: vigilance</title></rect>
+<rect x='556.77' y='68' width='147.23' height='16' fill='#0ca30c'><title>M2:T1_da_lbmp 2026-07-27–2026-10-31: confiance</title></rect>
+<text x='142' y='102' font-family='system-ui, -apple-system, Segoe UI, sans-serif' font-size='11' fill='#0b0b0b' text-anchor='end'>M1:T2_da_mcc</text>
+<rect x='150.00' y='90' width='63.75' height='16' fill='#0ca30c'><title>M1:T2_da_mcc 2025-11-01–2025-12-12: confiance</title></rect>
+<rect x='213.75' y='90' width='112.32' height='16' fill='#fab219'><title>M1:T2_da_mcc 2025-12-13–2026-02-24: vigilance</title></rect>
+<rect x='326.07' y='90' width='377.93' height='16' fill='#0ca30c'><title>M1:T2_da_mcc 2026-02-25–2026-10-31: confiance</title></rect>
+<text x='142' y='124' font-family='system-ui, -apple-system, Segoe UI, sans-serif' font-size='11' fill='#0b0b0b' text-anchor='end'>M2:T2_da_mcc</text>
+<rect x='150.00' y='112' width='48.57' height='16' fill='#0ca30c'><title>M2:T2_da_mcc 2025-11-01–2025-12-02: confiance</title></rect>
+<rect x='198.57' y='112' width='127.50' height='16' fill='#fab219'><title>M2:T2_da_mcc 2025-12-03–2026-02-24: vigilance</title></rect>
+<rect x='326.07' y='112' width='10.62' height='16' fill='#0ca30c'><title>M2:T2_da_mcc 2026-02-25–2026-03-03: confiance</title></rect>
+<rect x='336.69' y='112' width='16.70' height='16' fill='#fab219'><title>M2:T2_da_mcc 2026-03-04–2026-03-14: vigilance</title></rect>
+<rect x='353.39' y='112' width='80.44' height='16' fill='#0ca30c'><title>M2:T2_da_mcc 2026-03-15–2026-05-06: confiance</title></rect>
+<rect x='433.83' y='112' width='42.50' height='16' fill='#fab219'><title>M2:T2_da_mcc 2026-05-07–2026-06-03: vigilance</title></rect>
+<rect x='476.33' y='112' width='7.59' height='16' fill='#0ca30c'><title>M2:T2_da_mcc 2026-06-04–2026-06-08: confiance</title></rect>
+<rect x='483.92' y='112' width='42.50' height='16' fill='#fab219'><title>M2:T2_da_mcc 2026-06-09–2026-07-06: vigilance</title></rect>
+<rect x='526.42' y='112' width='98.66' height='16' fill='#0ca30c'><title>M2:T2_da_mcc 2026-07-07–2026-09-09: confiance</title></rect>
+<rect x='625.07' y='112' width='42.50' height='16' fill='#fab219'><title>M2:T2_da_mcc 2026-09-10–2026-10-07: vigilance</title></rect>
+<rect x='667.57' y='112' width='36.43' height='16' fill='#0ca30c'><title>M2:T2_da_mcc 2026-10-08–2026-10-31: confiance</title></rect>
+<text x='142' y='146' font-family='system-ui, -apple-system, Segoe UI, sans-serif' font-size='11' fill='#0b0b0b' text-anchor='end'>M1:T3_rt_lbmp</text>
+<rect x='150.00' y='134' width='133.57' height='16' fill='#0ca30c'><title>M1:T3_rt_lbmp 2025-11-01–2026-01-27: confiance</title></rect>
+<rect x='283.57' y='134' width='40.98' height='16' fill='#fab219'><title>M1:T3_rt_lbmp 2026-01-28–2026-02-23: vigilance</title></rect>
+<rect x='324.55' y='134' width='200.35' height='16' fill='#0ca30c'><title>M1:T3_rt_lbmp 2026-02-24–2026-07-05: confiance</title></rect>
+<rect x='524.90' y='134' width='30.36' height='16' fill='#d03b3b'><title>M1:T3_rt_lbmp 2026-07-06–2026-07-25: cesser de faire confiance</title></rect>
+<rect x='555.25' y='134' width='148.75' height='16' fill='#0ca30c'><title>M1:T3_rt_lbmp 2026-07-26–2026-10-31: confiance</title></rect>
+<text x='142' y='168' font-family='system-ui, -apple-system, Segoe UI, sans-serif' font-size='11' fill='#0b0b0b' text-anchor='end'>M2:T3_rt_lbmp</text>
+<rect x='150.00' y='156' width='21.25' height='16' fill='#0ca30c'><title>M2:T3_rt_lbmp 2025-11-01–2025-11-14: confiance</title></rect>
+<rect x='171.25' y='156' width='4.55' height='16' fill='#fab219'><title>M2:T3_rt_lbmp 2025-11-15–2025-11-17: vigilance</title></rect>
+<rect x='175.80' y='156' width='1.52' height='16' fill='#0ca30c'><title>M2:T3_rt_lbmp 2025-11-18–2025-11-18: confiance</title></rect>
+<rect x='177.32' y='156' width='1.52' height='16' fill='#fab219'><title>M2:T3_rt_lbmp 2025-11-19–2025-11-19: vigilance</title></rect>
+<rect x='178.84' y='156' width='1.52' height='16' fill='#0ca30c'><title>M2:T3_rt_lbmp 2025-11-20–2025-11-20: confiance</title></rect>
+<rect x='180.36' y='156' width='9.11' height='16' fill='#fab219'><title>M2:T3_rt_lbmp 2025-11-21–2025-11-26: vigilance</title></rect>
+<rect x='189.46' y='156' width='3.04' height='16' fill='#d03b3b'><title>M2:T3_rt_lbmp 2025-11-27–2025-11-28: cesser de faire confiance</title></rect>
+<rect x='192.50' y='156' width='15.18' height='16' fill='#0ca30c'><title>M2:T3_rt_lbmp 2025-11-29–2025-12-08: confiance</title></rect>
+<rect x='207.68' y='156' width='6.07' height='16' fill='#fab219'><title>M2:T3_rt_lbmp 2025-12-09–2025-12-12: vigilance</title></rect>
+<rect x='213.75' y='156' width='6.07' height='16' fill='#0ca30c'><title>M2:T3_rt_lbmp 2025-12-13–2025-12-16: confiance</title></rect>
+<rect x='219.82' y='156' width='1.52' height='16' fill='#fab219'><title>M2:T3_rt_lbmp 2025-12-17–2025-12-17: vigilance</title></rect>
+<rect x='221.34' y='156' width='60.71' height='16' fill='#0ca30c'><title>M2:T3_rt_lbmp 2025-12-18–2026-01-26: confiance</title></rect>
+<rect x='282.05' y='156' width='7.59' height='16' fill='#fab219'><title>M2:T3_rt_lbmp 2026-01-27–2026-01-31: vigilance</title></rect>
+<rect x='289.64' y='156' width='33.39' height='16' fill='#d03b3b'><title>M2:T3_rt_lbmp 2026-02-01–2026-02-22: cesser de faire confiance</title></rect>
+<rect x='323.03' y='156' width='3.04' height='16' fill='#fab219'><title>M2:T3_rt_lbmp 2026-02-23–2026-02-24: vigilance</title></rect>
+<rect x='326.07' y='156' width='1.52' height='16' fill='#d03b3b'><title>M2:T3_rt_lbmp 2026-02-25–2026-02-25: cesser de faire confiance</title></rect>
+<rect x='327.58' y='156' width='197.32' height='16' fill='#0ca30c'><title>M2:T3_rt_lbmp 2026-02-26–2026-07-05: confiance</title></rect>
+<rect x='524.90' y='156' width='30.36' height='16' fill='#d03b3b'><title>M2:T3_rt_lbmp 2026-07-06–2026-07-25: cesser de faire confiance</title></rect>
+<rect x='555.25' y='156' width='148.75' height='16' fill='#0ca30c'><title>M2:T3_rt_lbmp 2026-07-26–2026-10-31: confiance</title></rect>
+<text x='142' y='190' font-family='system-ui, -apple-system, Segoe UI, sans-serif' font-size='11' fill='#0b0b0b' text-anchor='end'>M1:T4_rt_mcc</text>
+<rect x='150.00' y='178' width='374.90' height='16' fill='#0ca30c'><title>M1:T4_rt_mcc 2025-11-01–2026-07-05: confiance</title></rect>
+<rect x='524.90' y='178' width='30.36' height='16' fill='#d03b3b'><title>M1:T4_rt_mcc 2026-07-06–2026-07-25: cesser de faire confiance</title></rect>
+<rect x='555.25' y='178' width='148.75' height='16' fill='#0ca30c'><title>M1:T4_rt_mcc 2026-07-26–2026-10-31: confiance</title></rect>
+<text x='142' y='212' font-family='system-ui, -apple-system, Segoe UI, sans-serif' font-size='11' fill='#0b0b0b' text-anchor='end'>M2:T4_rt_mcc</text>
+<rect x='150.00' y='200' width='54.64' height='16' fill='#0ca30c'><title>M2:T4_rt_mcc 2025-11-01–2025-12-06: confiance</title></rect>
+<rect x='204.64' y='200' width='6.07' height='16' fill='#fab219'><title>M2:T4_rt_mcc 2025-12-07–2025-12-10: vigilance</title></rect>
+<rect x='210.71' y='200' width='57.68' height='16' fill='#0ca30c'><title>M2:T4_rt_mcc 2025-12-11–2026-01-17: confiance</title></rect>
+<rect x='268.39' y='200' width='9.11' height='16' fill='#fab219'><title>M2:T4_rt_mcc 2026-01-18–2026-01-23: vigilance</title></rect>
+<rect x='277.50' y='200' width='33.39' height='16' fill='#d03b3b'><title>M2:T4_rt_mcc 2026-01-24–2026-02-14: cesser de faire confiance</title></rect>
+<rect x='310.89' y='200' width='119.91' height='16' fill='#0ca30c'><title>M2:T4_rt_mcc 2026-02-15–2026-05-04: confiance</title></rect>
+<rect x='430.79' y='200' width='42.50' height='16' fill='#fab219'><title>M2:T4_rt_mcc 2026-05-05–2026-06-01: vigilance</title></rect>
+<rect x='473.29' y='200' width='51.61' height='16' fill='#0ca30c'><title>M2:T4_rt_mcc 2026-06-02–2026-07-05: confiance</title></rect>
+<rect x='524.90' y='200' width='30.36' height='16' fill='#d03b3b'><title>M2:T4_rt_mcc 2026-07-06–2026-07-25: cesser de faire confiance</title></rect>
+<rect x='555.25' y='200' width='68.30' height='16' fill='#0ca30c'><title>M2:T4_rt_mcc 2026-07-26–2026-09-08: confiance</title></rect>
+<rect x='623.56' y='200' width='54.64' height='16' fill='#fab219'><title>M2:T4_rt_mcc 2026-09-09–2026-10-14: vigilance</title></rect>
+<rect x='678.20' y='200' width='6.07' height='16' fill='#0ca30c'><title>M2:T4_rt_mcc 2026-10-15–2026-10-18: confiance</title></rect>
+<rect x='684.27' y='200' width='19.73' height='16' fill='#fab219'><title>M2:T4_rt_mcc 2026-10-19–2026-10-31: vigilance</title></rect>
+<text x='150.0' y='232' font-family='system-ui, -apple-system, Segoe UI, sans-serif' font-size='10' fill='#52514e'>25-11</text>
+<text x='195.5' y='232' font-family='system-ui, -apple-system, Segoe UI, sans-serif' font-size='10' fill='#52514e'>25-12</text>
+<text x='242.6' y='232' font-family='system-ui, -apple-system, Segoe UI, sans-serif' font-size='10' fill='#52514e'>26-01</text>
+<text x='289.6' y='232' font-family='system-ui, -apple-system, Segoe UI, sans-serif' font-size='10' fill='#52514e'>26-02</text>
+<text x='332.1' y='232' font-family='system-ui, -apple-system, Segoe UI, sans-serif' font-size='10' fill='#52514e'>26-03</text>
+<text x='379.2' y='232' font-family='system-ui, -apple-system, Segoe UI, sans-serif' font-size='10' fill='#52514e'>26-04</text>
+<text x='424.7' y='232' font-family='system-ui, -apple-system, Segoe UI, sans-serif' font-size='10' fill='#52514e'>26-05</text>
+<text x='471.8' y='232' font-family='system-ui, -apple-system, Segoe UI, sans-serif' font-size='10' fill='#52514e'>26-06</text>
+<text x='517.3' y='232' font-family='system-ui, -apple-system, Segoe UI, sans-serif' font-size='10' fill='#52514e'>26-07</text>
+<text x='564.4' y='232' font-family='system-ui, -apple-system, Segoe UI, sans-serif' font-size='10' fill='#52514e'>26-08</text>
+<text x='611.4' y='232' font-family='system-ui, -apple-system, Segoe UI, sans-serif' font-size='10' fill='#52514e'>26-09</text>
+<text x='656.9' y='232' font-family='system-ui, -apple-system, Segoe UI, sans-serif' font-size='10' fill='#52514e'>26-10</text>
+<rect x='150' y='244' width='12' height='12' fill='#0ca30c'/>
+<text x='168' y='254' font-family='system-ui, -apple-system, Segoe UI, sans-serif' font-size='12' fill='#0b0b0b'>confiance</text>
+<rect x='252' y='244' width='12' height='12' fill='#fab219'/>
+<text x='270' y='254' font-family='system-ui, -apple-system, Segoe UI, sans-serif' font-size='12' fill='#0b0b0b'>vigilance</text>
+<rect x='354' y='244' width='12' height='12' fill='#d03b3b'/>
+<text x='372' y='254' font-family='system-ui, -apple-system, Segoe UI, sans-serif' font-size='12' fill='#0b0b0b'>cesser de faire confiance</text>
+<text x='16' y='280' font-family='system-ui, -apple-system, Segoe UI, sans-serif' font-size='11' fill='#52514e'>exécution 20261120T233440Z-replay-8359cd, année réservée</text>
+</svg>

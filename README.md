@@ -2,6 +2,8 @@
 
 _Français d'abord, la référence ; [English below](#english)._
 
+Construit avec Claude Code sous ma direction.
+
 Le marché de l'électricité, une pièce à la fois. Chaque pièce a son dossier sous `pieces/` ; le code partagé vit
 dans un seul paquet, `packages/pmcore`.
 
@@ -24,10 +26,29 @@ modèle-cible sur 10 battent leur référence ; aucun modèle ne bat la prévisi
 juillet 2026 manquent à l'archive du temps réel, et une nouvelle ligne Québec–New York (CHPE) est entrée en service
 pendant l'année : voir les limites du rapport.
 
+### En un coup d'œil
+
+Chaque graphique est tracé à partir de l'enregistrement du rejeu de l'année réservée qu'il nomme
+(`uv run hq-price figures --replay-run <id>`), jamais à partir de chiffres tapés. Seules des statistiques dérivées
+sont tracées ; aucune série horaire de prix n'est publiée.
+
+![EAM mensuelle de T1 : B0, M1, M2](docs/figures/mae-t1.fr.svg)
+
+L'erreur de M1 est sous celle de la référence B0 chaque mois ; M2 décroche en janvier et février 2026.
+
+![États du moniteur chaque jour de l'année réservée](docs/figures/monitor.fr.svg)
+
+Les arrêts de juillet sur T3 et T4 sont des jours où des prix en temps réel manquaient à la source, pas une dérive
+des modèles.
+
+![Bloc 5×16 de 50 MW : valeur réglée et prévue par mois](docs/figures/block.fr.svg)
+
 **Projet frère** : [valiwatt](https://github.com/MrRolie/valiwatt) valide et surveille une prévision de la demande
 horaire d'électricité du Québec, le côté de la demande ; ce dépôt couvre le côté du marché.
 
 ## English
+
+Built with Claude Code under my direction.
 
 The electricity market, one piece at a time. Each piece has its folder under `pieces/`; shared code lives in one
 package, `packages/pmcore`.
@@ -50,6 +71,21 @@ run recorded in `runs/`. In short: on the held-out year (November 2025 to Octobe
 pairs beat their baseline; no model beats the zero forecast of congestion. 19 days of July 2026 are missing from the
 real-time archive, and a new Québec–New York line (CHPE) entered service during the year: see the report's limits.
 
+### At a glance
+
+Each chart is drawn from the held-out replay record it names (`uv run hq-price figures --replay-run <id>`), never
+from typed numbers. Only derived statistics are drawn; no hourly price series is published.
+
+![Monthly MAE of T1: B0, M1, M2](docs/figures/mae-t1.en.svg)
+
+M1's error is below the B0 baseline's in every month; M2 breaks away in January and February 2026.
+
+![Monitor states on each day of the held-out year](docs/figures/monitor.en.svg)
+
+The July stops on T3 and T4 are days when real-time prices were missing at the source, not model drift.
+
+![50 MW 5×16 block: settled and forecast value by month](docs/figures/block.en.svg)
+
 **Sibling project**: [valiwatt](https://github.com/MrRolie/valiwatt) validates and monitors a forecast of Québec's
 hourly electricity demand, the demand side; this repository covers the market side.
 
@@ -64,6 +100,7 @@ uv run hq-price validate                                                # walk-f
 uv run hq-price rehearse --prior-run <validate id>                      # the replay's code path on the last validation year
 uv run hq-price replay --prior-run <validate id>                        # once: tag check, ledger, held-out fetch, scores
 uv run hq-price derive --from-run <validation id>   # robustness and outcome counts from the saved validation forecasts
+uv run hq-price figures --replay-run <id>                              # the README's charts
 uv run hq-price report --validate-run <id> --derived-run <id> --rehearse-run <id> --replay-run <id>
 uv run pytest
 ```
@@ -77,12 +114,12 @@ and never redistributed. Terms read and recorded in [docs/data-licences.md](docs
 
 Ce dépôt public est une copie à historique neuf d'un dépôt de travail privé. Les enregistrements de `runs/` et
 `docs/replay-ledger.json` citent des commits de cet historique privé : l'étiquette du plan `plan-v1` est le
-commit `9fc23ff`, et cette copie a été prise au commit `0be21ae`. L'historique privé peut être montré sur demande ;
+commit `9fc23ff`, et cette copie a été prise au commit `e3fb5e8`. L'historique privé peut être montré sur demande ;
 sans lui, l'ordre « plan figé, puis rejeu » repose sur ces enregistrements et sur la confiance. Les données brutes
 de NYISO ne sont pas redistribuées : `uv run hq-price fetch` les télécharge.
 
 This public repository is a fresh-history copy of a private working repository. The records in `runs/` and
 `docs/replay-ledger.json` cite commits of that private history: the plan tag `plan-v1` is commit `9fc23ff`, and
-this copy was taken at commit `0be21ae`. The private history can be shown on request; without it, the order "plan
+this copy was taken at commit `e3fb5e8`. The private history can be shown on request; without it, the order "plan
 frozen, then replay" rests on these records and on trust. NYISO's raw data is not redistributed:
 `uv run hq-price fetch` downloads it.

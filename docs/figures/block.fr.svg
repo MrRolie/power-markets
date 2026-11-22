@@ -1,0 +1,87 @@
+<svg xmlns='http://www.w3.org/2000/svg' width='720' height='300' viewBox='0 0 720 300' role='img' aria-label='Bloc 5×16 de 50 MW : valeur par mois'>
+<title>Bloc 5×16 de 50 MW : valeur par mois</title>
+<rect width='720' height='300' fill='#fcfcfb'/>
+<text x='16' y='24' font-family='system-ui, -apple-system, Segoe UI, sans-serif' font-size='15' font-weight='600' fill='#0b0b0b'>Bloc 5×16 de 50 MW : valeur par mois</text>
+<text x='16' y='58' font-family='system-ui, -apple-system, Segoe UI, sans-serif' font-size='11' fill='#52514e'>M$ US</text>
+<line x1='124' x2='142' y1='54' y2='54' stroke='#0b0b0b' stroke-width='3' stroke-dasharray='5 4'/>
+<text x='148' y='58' font-family='system-ui, -apple-system, Segoe UI, sans-serif' font-size='12' fill='#0b0b0b'>Réglé</text>
+<line x1='204' x2='222' y1='54' y2='54' stroke='#2a78d6' stroke-width='3'/>
+<text x='228' y='58' font-family='system-ui, -apple-system, Segoe UI, sans-serif' font-size='12' fill='#0b0b0b'>B0</text>
+<line x1='260' x2='278' y1='54' y2='54' stroke='#eb6834' stroke-width='3'/>
+<text x='284' y='58' font-family='system-ui, -apple-system, Segoe UI, sans-serif' font-size='12' fill='#0b0b0b'>M1</text>
+<line x1='316' x2='334' y1='54' y2='54' stroke='#1baf7a' stroke-width='3'/>
+<text x='340' y='58' font-family='system-ui, -apple-system, Segoe UI, sans-serif' font-size='12' fill='#0b0b0b'>M2</text>
+<line x1='64' x2='688' y1='252.0' y2='252.0' stroke='#e4e3df' stroke-width='1'/>
+<text x='56' y='256.0' font-family='system-ui, -apple-system, Segoe UI, sans-serif' font-size='11' fill='#52514e' text-anchor='end'>0</text>
+<line x1='64' x2='688' y1='204.8' y2='204.8' stroke='#e4e3df' stroke-width='1'/>
+<text x='56' y='208.8' font-family='system-ui, -apple-system, Segoe UI, sans-serif' font-size='11' fill='#52514e' text-anchor='end'>1</text>
+<line x1='64' x2='688' y1='157.6' y2='157.6' stroke='#e4e3df' stroke-width='1'/>
+<text x='56' y='161.6' font-family='system-ui, -apple-system, Segoe UI, sans-serif' font-size='11' fill='#52514e' text-anchor='end'>2</text>
+<line x1='64' x2='688' y1='110.4' y2='110.4' stroke='#e4e3df' stroke-width='1'/>
+<text x='56' y='114.4' font-family='system-ui, -apple-system, Segoe UI, sans-serif' font-size='11' fill='#52514e' text-anchor='end'>3</text>
+<text x='64.0' y='268' font-family='system-ui, -apple-system, Segoe UI, sans-serif' font-size='10' fill='#52514e' text-anchor='middle'>25-11</text>
+<text x='120.7' y='268' font-family='system-ui, -apple-system, Segoe UI, sans-serif' font-size='10' fill='#52514e' text-anchor='middle'>25-12</text>
+<text x='177.5' y='268' font-family='system-ui, -apple-system, Segoe UI, sans-serif' font-size='10' fill='#52514e' text-anchor='middle'>26-01</text>
+<text x='234.2' y='268' font-family='system-ui, -apple-system, Segoe UI, sans-serif' font-size='10' fill='#52514e' text-anchor='middle'>26-02</text>
+<text x='290.9' y='268' font-family='system-ui, -apple-system, Segoe UI, sans-serif' font-size='10' fill='#52514e' text-anchor='middle'>26-03</text>
+<text x='347.6' y='268' font-family='system-ui, -apple-system, Segoe UI, sans-serif' font-size='10' fill='#52514e' text-anchor='middle'>26-04</text>
+<text x='404.4' y='268' font-family='system-ui, -apple-system, Segoe UI, sans-serif' font-size='10' fill='#52514e' text-anchor='middle'>26-05</text>
+<text x='461.1' y='268' font-family='system-ui, -apple-system, Segoe UI, sans-serif' font-size='10' fill='#52514e' text-anchor='middle'>26-06</text>
+<text x='517.8' y='268' font-family='system-ui, -apple-system, Segoe UI, sans-serif' font-size='10' fill='#52514e' text-anchor='middle'>26-07</text>
+<text x='574.5' y='268' font-family='system-ui, -apple-system, Segoe UI, sans-serif' font-size='10' fill='#52514e' text-anchor='middle'>26-08</text>
+<text x='631.3' y='268' font-family='system-ui, -apple-system, Segoe UI, sans-serif' font-size='10' fill='#52514e' text-anchor='middle'>26-09</text>
+<text x='688.0' y='268' font-family='system-ui, -apple-system, Segoe UI, sans-serif' font-size='10' fill='#52514e' text-anchor='middle'>26-10</text>
+<polyline points='64.0,209.0 120.7,161.1 177.5,79.8 234.2,163.2 290.9,210.1 347.6,216.3 404.4,220.0 461.1,208.6 517.8,183.2 574.5,208.2 631.3,215.2 688.0,214.6' fill='none' stroke='#0b0b0b' stroke-width='2' stroke-linejoin='round' stroke-dasharray='5 4'/>
+<circle cx='64.0' cy='209.0' r='3' fill='#0b0b0b' stroke='#fcfcfb' stroke-width='1.5'><title>Réglé 2025-11: 0.91</title></circle>
+<circle cx='120.7' cy='161.1' r='3' fill='#0b0b0b' stroke='#fcfcfb' stroke-width='1.5'><title>Réglé 2025-12: 1.93</title></circle>
+<circle cx='177.5' cy='79.8' r='3' fill='#0b0b0b' stroke='#fcfcfb' stroke-width='1.5'><title>Réglé 2026-01: 3.65</title></circle>
+<circle cx='234.2' cy='163.2' r='3' fill='#0b0b0b' stroke='#fcfcfb' stroke-width='1.5'><title>Réglé 2026-02: 1.88</title></circle>
+<circle cx='290.9' cy='210.1' r='3' fill='#0b0b0b' stroke='#fcfcfb' stroke-width='1.5'><title>Réglé 2026-03: 0.89</title></circle>
+<circle cx='347.6' cy='216.3' r='3' fill='#0b0b0b' stroke='#fcfcfb' stroke-width='1.5'><title>Réglé 2026-04: 0.76</title></circle>
+<circle cx='404.4' cy='220.0' r='3' fill='#0b0b0b' stroke='#fcfcfb' stroke-width='1.5'><title>Réglé 2026-05: 0.68</title></circle>
+<circle cx='461.1' cy='208.6' r='3' fill='#0b0b0b' stroke='#fcfcfb' stroke-width='1.5'><title>Réglé 2026-06: 0.92</title></circle>
+<circle cx='517.8' cy='183.2' r='3' fill='#0b0b0b' stroke='#fcfcfb' stroke-width='1.5'><title>Réglé 2026-07: 1.46</title></circle>
+<circle cx='574.5' cy='208.2' r='3' fill='#0b0b0b' stroke='#fcfcfb' stroke-width='1.5'><title>Réglé 2026-08: 0.93</title></circle>
+<circle cx='631.3' cy='215.2' r='3' fill='#0b0b0b' stroke='#fcfcfb' stroke-width='1.5'><title>Réglé 2026-09: 0.78</title></circle>
+<circle cx='688.0' cy='214.6' r='3' fill='#0b0b0b' stroke='#fcfcfb' stroke-width='1.5'><title>Réglé 2026-10: 0.79</title></circle>
+<polyline points='64.0,210.5 120.7,164.9 177.5,80.8 234.2,155.5 290.9,210.2 347.6,217.6 404.4,220.1 461.1,211.9 517.8,189.2 574.5,209.8 631.3,215.1 688.0,215.2' fill='none' stroke='#2a78d6' stroke-width='2' stroke-linejoin='round'/>
+<circle cx='64.0' cy='210.5' r='3' fill='#2a78d6' stroke='#fcfcfb' stroke-width='1.5'><title>B0 2025-11: 0.88</title></circle>
+<circle cx='120.7' cy='164.9' r='3' fill='#2a78d6' stroke='#fcfcfb' stroke-width='1.5'><title>B0 2025-12: 1.85</title></circle>
+<circle cx='177.5' cy='80.8' r='3' fill='#2a78d6' stroke='#fcfcfb' stroke-width='1.5'><title>B0 2026-01: 3.63</title></circle>
+<circle cx='234.2' cy='155.5' r='3' fill='#2a78d6' stroke='#fcfcfb' stroke-width='1.5'><title>B0 2026-02: 2.04</title></circle>
+<circle cx='290.9' cy='210.2' r='3' fill='#2a78d6' stroke='#fcfcfb' stroke-width='1.5'><title>B0 2026-03: 0.89</title></circle>
+<circle cx='347.6' cy='217.6' r='3' fill='#2a78d6' stroke='#fcfcfb' stroke-width='1.5'><title>B0 2026-04: 0.73</title></circle>
+<circle cx='404.4' cy='220.1' r='3' fill='#2a78d6' stroke='#fcfcfb' stroke-width='1.5'><title>B0 2026-05: 0.68</title></circle>
+<circle cx='461.1' cy='211.9' r='3' fill='#2a78d6' stroke='#fcfcfb' stroke-width='1.5'><title>B0 2026-06: 0.85</title></circle>
+<circle cx='517.8' cy='189.2' r='3' fill='#2a78d6' stroke='#fcfcfb' stroke-width='1.5'><title>B0 2026-07: 1.33</title></circle>
+<circle cx='574.5' cy='209.8' r='3' fill='#2a78d6' stroke='#fcfcfb' stroke-width='1.5'><title>B0 2026-08: 0.89</title></circle>
+<circle cx='631.3' cy='215.1' r='3' fill='#2a78d6' stroke='#fcfcfb' stroke-width='1.5'><title>B0 2026-09: 0.78</title></circle>
+<circle cx='688.0' cy='215.2' r='3' fill='#2a78d6' stroke='#fcfcfb' stroke-width='1.5'><title>B0 2026-10: 0.78</title></circle>
+<polyline points='64.0,211.4 120.7,167.8 177.5,105.0 234.2,160.0 290.9,210.5 347.6,218.6 404.4,220.6 461.1,208.7 517.8,189.3 574.5,209.9 631.3,216.7 688.0,215.3' fill='none' stroke='#eb6834' stroke-width='2' stroke-linejoin='round'/>
+<circle cx='64.0' cy='211.4' r='3' fill='#eb6834' stroke='#fcfcfb' stroke-width='1.5'><title>M1 2025-11: 0.86</title></circle>
+<circle cx='120.7' cy='167.8' r='3' fill='#eb6834' stroke='#fcfcfb' stroke-width='1.5'><title>M1 2025-12: 1.78</title></circle>
+<circle cx='177.5' cy='105.0' r='3' fill='#eb6834' stroke='#fcfcfb' stroke-width='1.5'><title>M1 2026-01: 3.11</title></circle>
+<circle cx='234.2' cy='160.0' r='3' fill='#eb6834' stroke='#fcfcfb' stroke-width='1.5'><title>M1 2026-02: 1.95</title></circle>
+<circle cx='290.9' cy='210.5' r='3' fill='#eb6834' stroke='#fcfcfb' stroke-width='1.5'><title>M1 2026-03: 0.88</title></circle>
+<circle cx='347.6' cy='218.6' r='3' fill='#eb6834' stroke='#fcfcfb' stroke-width='1.5'><title>M1 2026-04: 0.71</title></circle>
+<circle cx='404.4' cy='220.6' r='3' fill='#eb6834' stroke='#fcfcfb' stroke-width='1.5'><title>M1 2026-05: 0.67</title></circle>
+<circle cx='461.1' cy='208.7' r='3' fill='#eb6834' stroke='#fcfcfb' stroke-width='1.5'><title>M1 2026-06: 0.92</title></circle>
+<circle cx='517.8' cy='189.3' r='3' fill='#eb6834' stroke='#fcfcfb' stroke-width='1.5'><title>M1 2026-07: 1.33</title></circle>
+<circle cx='574.5' cy='209.9' r='3' fill='#eb6834' stroke='#fcfcfb' stroke-width='1.5'><title>M1 2026-08: 0.89</title></circle>
+<circle cx='631.3' cy='216.7' r='3' fill='#eb6834' stroke='#fcfcfb' stroke-width='1.5'><title>M1 2026-09: 0.75</title></circle>
+<circle cx='688.0' cy='215.3' r='3' fill='#eb6834' stroke='#fcfcfb' stroke-width='1.5'><title>M1 2026-10: 0.78</title></circle>
+<polyline points='64.0,215.1 120.7,172.7 177.5,160.9 234.2,155.6 290.9,210.5 347.6,219.4 404.4,219.9 461.1,211.2 517.8,196.2 574.5,208.2 631.3,215.8 688.0,216.8' fill='none' stroke='#1baf7a' stroke-width='2' stroke-linejoin='round'/>
+<circle cx='64.0' cy='215.1' r='3' fill='#1baf7a' stroke='#fcfcfb' stroke-width='1.5'><title>M2 2025-11: 0.78</title></circle>
+<circle cx='120.7' cy='172.7' r='3' fill='#1baf7a' stroke='#fcfcfb' stroke-width='1.5'><title>M2 2025-12: 1.68</title></circle>
+<circle cx='177.5' cy='160.9' r='3' fill='#1baf7a' stroke='#fcfcfb' stroke-width='1.5'><title>M2 2026-01: 1.93</title></circle>
+<circle cx='234.2' cy='155.6' r='3' fill='#1baf7a' stroke='#fcfcfb' stroke-width='1.5'><title>M2 2026-02: 2.04</title></circle>
+<circle cx='290.9' cy='210.5' r='3' fill='#1baf7a' stroke='#fcfcfb' stroke-width='1.5'><title>M2 2026-03: 0.88</title></circle>
+<circle cx='347.6' cy='219.4' r='3' fill='#1baf7a' stroke='#fcfcfb' stroke-width='1.5'><title>M2 2026-04: 0.69</title></circle>
+<circle cx='404.4' cy='219.9' r='3' fill='#1baf7a' stroke='#fcfcfb' stroke-width='1.5'><title>M2 2026-05: 0.68</title></circle>
+<circle cx='461.1' cy='211.2' r='3' fill='#1baf7a' stroke='#fcfcfb' stroke-width='1.5'><title>M2 2026-06: 0.86</title></circle>
+<circle cx='517.8' cy='196.2' r='3' fill='#1baf7a' stroke='#fcfcfb' stroke-width='1.5'><title>M2 2026-07: 1.18</title></circle>
+<circle cx='574.5' cy='208.2' r='3' fill='#1baf7a' stroke='#fcfcfb' stroke-width='1.5'><title>M2 2026-08: 0.93</title></circle>
+<circle cx='631.3' cy='215.8' r='3' fill='#1baf7a' stroke='#fcfcfb' stroke-width='1.5'><title>M2 2026-09: 0.77</title></circle>
+<circle cx='688.0' cy='216.8' r='3' fill='#1baf7a' stroke='#fcfcfb' stroke-width='1.5'><title>M2 2026-10: 0.75</title></circle>
+<text x='16' y='290' font-family='system-ui, -apple-system, Segoe UI, sans-serif' font-size='11' fill='#52514e'>exécution 20261120T233440Z-replay-8359cd, année réservée</text>
+</svg>

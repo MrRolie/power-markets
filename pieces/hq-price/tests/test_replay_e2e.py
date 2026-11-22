@@ -55,6 +55,16 @@ def test_replay_run_end_to_end(tmp_path, monkeypatch):
         report.render(fake_val, fake_der, rp, gap, [{"run_id": "r2", "status": "finished", "departure": None}], False, "en", dep)
     text = report.render(fake_val, fake_der, rp, gap, [{"run_id": "r2", "status": "finished", "departure": "why"}], False, "en", dep)
     assert "Departure from the plan" in text and "`r2`" in text and "`r`" in text
+    # the README charts come from the record alone, name the run, and refuse a missing value
+    from hq_price import figures
+    for lang in ("fr", "en"):
+        for fn in (figures.monthly_mae, figures.monitor_states, figures.deal_by_month):
+            svg = fn(rp, lang)
+            assert svg.startswith("<svg") and "run r" in svg or "exécution r" in svg
+    broken = copy.deepcopy(rp)
+    broken["deal"].pop("by_month")
+    with pytest.raises(report.Untraceable):
+        figures.deal_by_month(broken, "en")
 
 
 def test_validate_command_end_to_end(tmp_path, monkeypatch):

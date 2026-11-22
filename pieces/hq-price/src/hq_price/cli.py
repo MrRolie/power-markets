@@ -221,6 +221,11 @@ def cmd_derive(a) -> dict:
     return {"ok": True, "run_id": run_id, "record": str(path.relative_to(REPO))}
 
 
+def cmd_figures(a) -> dict:
+    from hq_price import figures
+    return {"ok": True, "files": figures.write(REPO, a.replay_run)}
+
+
 def cmd_report(a) -> dict:
     files = report.write(REPO, a.validate_run, a.derived_run, a.rehearse_run, a.replay_run, a.departure_run)
     return {"ok": True, "files": files}
@@ -245,6 +250,8 @@ def main(argv=None) -> int:
             r.add_argument("--departure", default=None, help="reason; required for any replay after the first")
     dv = sub.add_parser("derive")
     dv.add_argument("--from-run", required=True)
+    fg = sub.add_parser("figures")
+    fg.add_argument("--replay-run", required=True)
     rp = sub.add_parser("report")
     rp.add_argument("--validate-run", required=True)
     rp.add_argument("--derived-run", required=True)
@@ -254,7 +261,7 @@ def main(argv=None) -> int:
     a = ap.parse_args(argv)
     try:
         res = {"fetch": cmd_fetch, "tag-check": cmd_tag_check, "validate": cmd_validate,
-               "rehearse": cmd_rehearse, "replay": cmd_replay, "report": cmd_report, "derive": cmd_derive}[a.cmd](a)
+               "rehearse": cmd_rehearse, "replay": cmd_replay, "report": cmd_report, "derive": cmd_derive, "figures": cmd_figures}[a.cmd](a)
     except (nyiso.FenceError, nyiso.ClockError, FileNotFoundError, runs.RecordError, replay.ReplayRefused,
             report.Untraceable) as e:
         print(json.dumps({"ok": False, "refused": str(e)}))
