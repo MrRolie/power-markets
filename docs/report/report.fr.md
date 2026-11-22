@@ -39,7 +39,7 @@ _(exécution `20261120T233440Z-replay-8359cd`, année réservée)_
 - **Heure de décision** : 5 h, heure de l'Est, la veille du jour d'exploitation, soit la clôture des offres du marché du jour précédent (Manuel 11 de NYISO, §2.2 ; MST 4.2.1.1). La prévision couvre les 23, 24 ou 25 heures du jour, de 19 à 43 heures plus tard.
 - **Admission** : aucun fichier dont l'heure d'archivage est postérieure à 60 minutes avant l'heure de décision n'est admis ; sinon, le dernier jour admissible précédent prend sa place.
 - **Validation progressive** (walk-forward) : un pli par mois, réestimation au début de chaque pli, purge selon l'heure de publication des cibles, embargo de 7 jours imposé par un contrôle qui refuse toute violation.
-- **Plan figé** : étiquette `plan-v1` ; fichiers du plan identiques à l'étiquette lors de la validation et du rejeu : oui.
+- **Plan figé** : étiquette `plan-v1` (historique de travail privé, voir la Provenance du README) ; fichiers du plan identiques à l'étiquette lors de la validation et du rejeu : oui.
 - **Rejeu de l'année réservée** : 2 rejeu(x) terminé(s) consigné(s) dans `docs/replay-ledger.json` ; rejeu inscrit : commit `3bc75c2`, arbre propre au début et à la fin : oui.
 - **Écarts au plan** : voir docs/departures.md. Cibles inscrites non exécutées : aucune. Décisions prises après l'étiquette, avant et après le rejeu : [docs/implementation-notes.md](../implementation-notes.md).
 - Avant l'étiquette, un examen a mesuré sur la fenêtre de validation que Z bat B0 pour T2 ; c'est pourquoi Z décide pour la congestion (préambule du plan).

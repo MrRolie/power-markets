@@ -14,7 +14,9 @@ composante de congestion de chacun, sous une discipline sans anticipation :
 - chaque prévision a une heure de décision tirée des documents de l'opérateur, cités ([problème](docs/problem.md)) ;
 - un fichier n'est admis que si son heure d'archivage précède l'heure de décision d'au moins 60 minutes ;
 - le [plan](docs/plan.md), avec chaque modèle évalué et la règle qui décide « meilleur », est figé par l'étiquette
-  `plan-v1` avant tout rejeu de l'année réservée (hors échantillon), qui n'est touchée qu'une fois ;
+  `plan-v1` (dans l'historique de travail privé, voir Provenance) avant tout rejeu de l'année réservée (hors
+  échantillon) ; le résultat inscrit est celui du premier rejeu, et un second rejeu, permis par le propriétaire
+  comme écart au plan, est montré à côté ;
 - une référence naïve et des modèles concurrents ; un moniteur qui dit quand cesser de faire confiance à la
   prévision, avec ce qu'il peut ne pas détecter ; le revenu du lendemain d'un bloc 5×16 énoncé ;
 - aucune ligne de profit : rien dans les règles de l'opérateur lues ne montre qu'on puisse prendre la position à
@@ -60,7 +62,9 @@ under a no-lookahead discipline:
 - each forecast has a decision time taken from the operator's documents, cited ([problem](docs/problem.md));
 - a file is admitted only if its archive stamp is at least 60 minutes before the decision time;
 - the [plan](docs/plan.md), with every model scored and the rule that decides "better", is frozen by the tag
-  `plan-v1` before any replay of the held-out year, which is touched once;
+  `plan-v1` (in the private working history, see Provenance) before any replay of the held-out year; the result
+  of record is the first replay, and a second replay, allowed by the owner as a departure from the plan, is shown
+  beside it;
 - a naive baseline and competing models; a monitor that says when to stop trusting the forecast, with what it can
   miss; the next-day revenue of a stated 5×16 block;
 - no profit line: nothing in the operator's rules read shows the position can be taken at that location. "No
@@ -114,12 +118,12 @@ and never redistributed. Terms read and recorded in [docs/data-licences.md](docs
 
 Ce dépôt public est une copie à historique neuf d'un dépôt de travail privé. Les enregistrements de `runs/` et
 `docs/replay-ledger.json` citent des commits de cet historique privé : l'étiquette du plan `plan-v1` est le
-commit `9fc23ff`, et cette copie a été prise au commit `e3fb5e8`. L'historique privé peut être montré sur demande ;
+commit `9fc23ff`, et cette copie a été prise au commit `afe73b0`. L'historique privé peut être montré sur demande ;
 sans lui, l'ordre « plan figé, puis rejeu » repose sur ces enregistrements et sur la confiance. Les données brutes
 de NYISO ne sont pas redistribuées : `uv run hq-price fetch` les télécharge.
 
 This public repository is a fresh-history copy of a private working repository. The records in `runs/` and
 `docs/replay-ledger.json` cite commits of that private history: the plan tag `plan-v1` is commit `9fc23ff`, and
-this copy was taken at commit `e3fb5e8`. The private history can be shown on request; without it, the order "plan
+this copy was taken at commit `afe73b0`. The private history can be shown on request; without it, the order "plan
 frozen, then replay" rests on these records and on trust. NYISO's raw data is not redistributed:
 `uv run hq-price fetch` downloads it.

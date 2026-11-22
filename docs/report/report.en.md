@@ -39,7 +39,7 @@ _(run `20261120T233440Z-replay-8359cd`, held out)_
 - **Decision time**: 05:00 Eastern on the day before the operating day, the day-ahead bid deadline (NYISO Manual 11, §2.2; MST 4.2.1.1). The forecast covers the 23, 24 or 25 hours of the day, 19 to 43 hours ahead.
 - **Admission**: no file whose archive stamp is later than 60 minutes before the decision time is admitted; otherwise the latest earlier qualifying day takes its slot.
 - **Walk-forward validation**: one fold per month, refit at each fold start, purge by the targets' posting time, a 7-day embargo enforced by a check that refuses any violation.
-- **Frozen plan**: tag `plan-v1`; plan files identical to the tag at validation and at the replay: yes.
+- **Frozen plan**: tag `plan-v1` (private working history, see the README's Provenance); plan files identical to the tag at validation and at the replay: yes.
 - **Held-out replay**: 2 finished replay(s) recorded in `docs/replay-ledger.json`; registered replay: commit `3bc75c2`, tree clean at start and end: yes.
 - **Departures from the plan**: see docs/departures.md. Registered targets not run: none. Decisions taken after the tag, before and after the replay: [docs/implementation-notes.md](../implementation-notes.md).
 - Before the tag, a review measured on the validation window that Z beats B0 on T2; that is why Z decides for congestion (plan preamble).
