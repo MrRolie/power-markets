@@ -1,0 +1,137 @@
+# Frozen values of docs/plan.md (tag plan-v1). Changing any line after the tag is a departure.
+# tests/test_plan_constants.py fails if the code's constants differ from these.
+
+[location]
+name = "H Q"
+zone_ptid = 61844
+proxy_bus = "HQ_GEN_WHEEL"
+proxy_ptid = 23651
+
+[targets]
+registered = ["T1_da_lbmp", "T2_da_mcc", "T3_rt_lbmp", "T4_rt_mcc"]
+droppable_before_first_validation_score = ["T3_rt_lbmp", "T4_rt_mcc"]
+mcc_nonzero_abs = 0.005
+
+[timing]
+timezone = "America/New_York"
+decision_hour_local_day_before = 5
+admission = "entry_time_at_least_margin_before_decision"
+admission_margin_minutes = 60
+ambiguous_entry_time = "later"
+fallback = "fill_slot_in_place_with_latest_earlier_qualifying_day"
+hours = "local_hour_beginning_0_23"
+spring_missing_slot = "copy_previous_hour"
+autumn_repeated_slot = "mean"
+autumn_second_hour_model = 1
+
+[features]
+da_lags_days = [1, 2, 3, 7]
+rt_lags_days = [2, 3, 4, 7]
+blocks_T1 = ["da_lbmp"]
+blocks_T2 = ["da_mcc"]
+blocks_T3 = ["rt_lbmp", "da_lbmp"]
+blocks_T4 = ["rt_mcc", "da_mcc"]
+other_zones = ["NORTH", "N.Y.C."]
+other_zones_lags_days = [1]
+load_forecast_areas = ["NYISO", "North", "Capitl"]
+calendar = ["day_of_week_dummies_7", "nerc_holiday"]
+n_features_T1_T2 = 224
+n_features_T3_T4 = 320
+nerc_holidays = ["new_year", "memorial_day", "independence_day", "labor_day", "thanksgiving", "christmas"]
+nerc_sunday_observed_monday = true
+nerc_saturday_moved = false
+
+[periods]
+history_start = "2016-01-15"
+validation_first_month = "2022-11"
+validation_last_month = "2025-10"
+held_out_first_day = "2025-11-01"
+held_out_last_day = "2026-10-31"
+fence_first_unfetched_day = "2025-11-01"
+
+[walkforward]
+fold = "calendar_month"
+refit = "fold_start"
+purge = "target_entry_time_at_least_margin_before_fold_first_decision"
+embargo_days = 7
+
+[models]
+baseline_T1 = "B0"
+baseline_T2 = "Z"
+baseline_T3 = "B0"
+baseline_T4 = "Z"
+baseline_P = "P0"
+B0_lag_slot = "first_lag_of_target_market"
+B1_lag_days = 7
+
+[models.M1]
+kind = "lassolarsic_per_local_hour"
+criterion = "aic"
+window_days = 728
+transform = "asinh_after_median_mad"
+scale_fallback = ["mad", "std", "one"]
+load_forecast_transform = "median_mad_no_asinh"
+failed_or_constant_hour = "training_median"
+
+[models.M2]
+kind = "hist_gradient_boosting_regressor"
+loss = "absolute_error"
+max_iter = 400
+learning_rate = 0.05
+max_leaf_nodes = 31
+min_samples_leaf = 40
+l2_regularization = 1.0
+random_state = 0
+early_stopping = false
+train_from = "2018-01-01"
+hour_feature = true
+
+[models.P0]
+window_days = 28
+
+[models.P2]
+kind = "hist_gradient_boosting_classifier"
+settings = "M2"
+
+[intervals]
+level = 0.90
+residual_days = 365
+min_residual_days = 330
+includes_earlier_held_out_days = true
+
+[rule]
+loss_point = "mae"
+loss_prob = "brier"
+test = "diebold_mariano_one_sided_daily_mean_loss"
+kernel = "bartlett"
+lags = 7
+hln_correction = true
+reference = "student_t_n_minus_1"
+alpha = 0.05
+correction = "holm"
+family = ["M1:T1", "M2:T1", "M1:T2", "M2:T2", "P2:T2", "M1:T3", "M2:T3", "M1:T4", "M2:T4", "P2:T4"]
+nonpositive_variance = "does_not_reject"
+
+[deal]
+mw = 50
+hours_beginning = [7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22]
+days = "weekdays_not_nerc_holiday"
+market = "day_ahead"
+band = "quantiles_of_earlier_daily_value_errors"
+min_band_days = 200
+
+[monitor]
+window_days = 28
+rel_mae_quantile = 0.95
+bias_band = [0.025, 0.975]
+regime_band = [0.01, 0.99]
+regime_statistic_T1_T2 = "share_nonzero_da_mcc"
+regime_statistic_T3_T4 = "share_rt_lbmp_le_0"
+zero_baseline_window = "signal_off_counted"
+stop_after_consecutive_days = 7
+stop_when_signals_together = 2
+max_fallback_age_days = 3
+
+[robustness]
+by = ["year", "season", "hour_group", "price_decile_T1"]
+value_of_variable = "M1_without_load_forecast"

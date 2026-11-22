@@ -1,0 +1,19 @@
+[project]
+name = "hq-price"
+version = "0.1.0"
+description = "Day-ahead and real-time price at NYISO's H Q zone: forecast, validation, monitor, deal value."
+requires-python = ">=3.12,<3.13"
+dependencies = ["pmcore", "scikit-learn>=1.5", "numpy>=2.0", "pandas>=2.2"]
+
+[project.scripts]
+hq-price = "hq_price.cli:main"
+
+[tool.uv.sources]
+pmcore = { workspace = true }
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/hq_price"]

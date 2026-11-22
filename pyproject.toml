@@ -1,0 +1,21 @@
+[project]
+name = "power-markets"
+version = "0.1.0"
+description = "The electricity market, one piece at a time: forecasts validated under a no-lookahead discipline."
+requires-python = ">=3.12,<3.13"
+dependencies = ["pmcore", "hq-price"]
+
+[tool.uv.workspace]
+members = ["packages/pmcore", "pieces/hq-price"]
+
+[tool.uv.sources]
+pmcore = { workspace = true }
+hq-price = { workspace = true }
+
+[dependency-groups]
+dev = ["pytest>=8.3"]
+
+[tool.pytest.ini_options]
+testpaths = ["packages/pmcore/tests", "pieces/hq-price/tests"]
+pythonpath = ["pieces/hq-price/tests"]
+markers = ["network: hits a live public endpoint (deselect with -m 'not network')"]
